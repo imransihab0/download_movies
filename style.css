@@ -2,7 +2,7 @@ body{
 	margin: 100px;
 	padding: 0;
 	font-family: sans-serif;
-	background: #212125;
+	background: -webkit-linear-gradient(-45deg,#f542d4,#f5428d);
 }
 .main{
 	display: flex;
