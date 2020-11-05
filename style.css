@@ -2,25 +2,20 @@ body{
 	margin: 100px;
 	padding: 0;
 	font-family: sans-serif;
-	background: -webkit-linear-gradient(-45deg, #EE7752, #E72C7E, #23A6D5, #23D5AB);
+	background: #2B303A;
 	animation: change 10s ease-in-out infinite;
-}
-.main{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top:50px;
 }
 
 
 div.box{
 	padding: 0;
+	margin-left: 40%;
 }
 
 .box{
 	position: relative;
 	width: 250px;
-	perspective: 1000px;
+	margin-bottom: 70px;
 	transition: all 0.5s ease-in-out 0.5s;
 	
 }
@@ -118,9 +113,21 @@ div.box{
 	background: #10890C
 }
 
-@media screen and (max-width:300px){
-	div .box{
-		width: 60%;
+@media screen and (max-width:1049px){
+	div.box{
+		margin-left: 37%;
+	}
+}
+
+@media screen and (max-width:765px){
+	div.box{
+		margin-left: 30%;
+	}
+}
+
+@media screen and (max-width:500px){
+	div.box{
+		margin-left: 9%;
 	}
 }
 
